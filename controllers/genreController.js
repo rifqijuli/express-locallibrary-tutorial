@@ -3,7 +3,7 @@ const asyncHandler = require("express-async-handler");
 const Book = require("../models/book");
 const { body, validationResult } = require("express-validator");
 const BookInstance = require("../models/bookinstance");
-const Author = require("../models/author");
+const Author = require("../models/Author");
 
 
 // Display list of all Genre.
